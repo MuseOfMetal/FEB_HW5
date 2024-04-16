@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.wrapper {
+    background-color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.impuls-container {
+    font-size: 0;
+    width: 95%;
+}
+
+.impuls-container__item {
+    font-family: Montserrat, sans-serif;
+    display: inline-block;
+    /*padding: 60px calc((100% - 1087px) / 8) 70px calc((100% - 1087px) / 8);*/
+    padding: 60px calc((100% - 1107px) / 8) 70px calc((100% - 1107px) / 8);
+    margin: 2px;
+    background-color: white;
+}
+
+.impuls-container__svg {
+    width: 10px;
+    height: 55px;
+    margin-right: 5px;
+}
+
+.impuls-container__text {
+    font-size: 61pt;
+    line-height: 0;
+}
