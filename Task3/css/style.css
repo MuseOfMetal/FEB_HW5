@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('../../Task3/assets/fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('../../Task3/assets/fonts/Roboto-Black.ttf') format('truetype');
+}
+
+body {
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    margin-top: 100px;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 100px 0;
+}
+
+.footer-container__item {
+    width: 21%;
+}
+
+.footer-container__name {
+    margin-bottom: 35px;
+    font-size: 18pt;
+    font-family: Roboto-Black, sans-serif;
+    line-height: 30px;
+    word-spacing: 9999px;
+}
+
+.footer-container__category-list {
+    padding-top: 35px;
+    border-top: 2px solid whitesmoke;
+    font-family: Roboto-Thin, sans-serif;
+    font-size: 12pt;
+    line-height: 30px;
+    font-weight: bold;
+
+}
+
+.footer-container__category-list li a {
+    text-decoration: none;
+    color: darkgray;
+}

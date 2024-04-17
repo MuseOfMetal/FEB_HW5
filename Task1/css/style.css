@@ -27,7 +27,6 @@ body {
 .impuls-container__item {
     font-family: Montserrat, sans-serif;
     display: inline-block;
-    /*padding: 60px calc((100% - 1087px) / 8) 70px calc((100% - 1087px) / 8);*/
     padding: 60px calc((100% - 1107px) / 8) 70px calc((100% - 1107px) / 8);
     margin: 2px;
     background-color: white;

@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('../../Task3/assets/fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../../Task3/assets/fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+body {
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.container {
+    width: 75%;
+}
+
+.container h2{
+    font-family: Roboto-Medium, serif;
+    margin-bottom: 30px;
+}
+
+.offer-list__item{
+    background-color: white;
+    margin: 5px 30px 30px 0;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+}
+
+.offer-list__image {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.offer-list__description {
+    font-family: Roboto-Thin, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: 15pt;
+    width: 230px;
+}
+
+.offer-list__price {
+    font-size: 24pt;
+    font-family: Roboto-Medium, sans-serif;
+    font-weight: 100;
+    margin-bottom: 17px;
+}
+
+.offer-list__button {
+    font-family: Roboto-Thin, sans-serif;
+    background-color: deeppink;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px 65px;
+    border-radius: 45px;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
